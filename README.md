@@ -1,12 +1,20 @@
 # BackEndHero
-BackEndHero는 뒤끝 SDK를 활용하여 만든 간단한 캐주얼 게임입니다!
+BackEndHero는 외부 개발사에서 공식적으로 참여한 첫번째 프로젝트로 뒤끝SDK를 활용한 간단한 캐주얼 게임입니다!
 
-게임 개발자분들이 뒤끝 SDK를 사용하여 게임을 개발할 때 도움이 되고자 개발되었으며, 관련 소스코드는 모두 오픈소스로 공개됩니다.
+[므쮸 컴퍼니](http://mmzzuu.com/)에서 게임을 제작하였고, 뒤끝 SDK를 사용하여 서버기능을 구현하였습니다.
 
 BackEndHero는 Unity 2018.2.20f1과 Backend-3.8.3 .NET 3버전을 기준으로 개발되었습니다.
 
 BackEndHero에 대한 자세한 설명은 아래 링크를 참고해주세요.
 https://developer.thebackend.io/outline/guide/sampleGameGuide
+
+## 라이센스
+* BackEndHero는 [BSD-2-Clause](https://github.com/thebackend-io/BackEndHero/blob/master/LICENSE) 라이센스를 따릅니다.
+
+## 마켓 링크
+<!-- - [Apple App Store](https://apps.apple.com/us/app/backend-hero/id1461432877?l=ko&ls=1) -->
+- [Google Play Store](https://play.google.com/store/apps/details?id=io.thebackend.backendhero)
+
 
 ## 포함된 뒤끝베이스 기능
 BackEndHero는 아래의 뒤끝베이스 기능들을 포함하고 있습니다.
