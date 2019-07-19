@@ -1,7 +1,7 @@
 # BackEndHero
 BackEndHero는 뒤끝 SDK를 활용하여 만든 간단한 캐주얼 게임입니다!
 게임 개발자분들이 뒤끝 SDK를 사용하여 게임을 개발할 때 도움이 되고자 개발되었으며, 관련 소스코드는 모두 오픈소스로 공개됩니다.
-BackEndHero는 [Backend-3.8.3 .NET 3버전](https://developer.thebackend.io/sdk/unityPackage/3.8.3/Backend-3.8.3.unitypackage)을 기준으로 개발되었습니다.
+BackEndHero는 Unity 2018.2.20f1과 Backend-3.8.3 .NET 3버전을 기준으로 개발되었습니다.
 BackEndHero에 대한 자세한 설명은 아래 링크를 참고해주세요.
 https://developer.thebackend.io/outline/guide/sampleGameGuide
 
