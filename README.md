@@ -1,13 +1,18 @@
 # BackEndHero
 BackEndHero는 뒤끝 SDK를 활용하여 만든 간단한 캐주얼 게임입니다!
+
 게임 개발자분들이 뒤끝 SDK를 사용하여 게임을 개발할 때 도움이 되고자 개발되었으며, 관련 소스코드는 모두 오픈소스로 공개됩니다.
+
 BackEndHero는 Unity 2018.2.20f1과 Backend-3.8.3 .NET 3버전을 기준으로 개발되었습니다.
+
 BackEndHero에 대한 자세한 설명은 아래 링크를 참고해주세요.
 https://developer.thebackend.io/outline/guide/sampleGameGuide
 
 ## 포함된 뒤끝베이스 기능
 BackEndHero는 아래의 뒤끝베이스 기능들을 포함하고 있습니다.
+
 사용된 뒤끝 기능은 뒤끝의 모든 기능이 아닌, 뒤끝 기능의 일부이며 추후 BackEndHero 예제게임에 추가될 수 있습니다.
+
 뒤끝베이스 관련 기능들은 `Assets/Sources/Scripts/BackEndServerManager.cs` 와 `Assets/Sources/Scripts/BackEndUIManager.cs` 를 주로 참고하시면 됩니다.
 
 ### 버전관리
@@ -43,7 +48,9 @@ BackEndHero는 아래의 뒤끝베이스 기능들을 포함하고 있습니다.
 
 ## 포함된 뒤끝챗 기능
 BackEndHero는 아래의 뒤끝챗 기능들이 포함되어 있습니다.
+
 사용된 뒤끝 기능은 뒤끝의 모든 기능이 아닌, 뒤끝 기능의 일부이며 추후 BackEndHero 예제게임에 추가될 수 있습니다.
+
 뒤끝베이스 관련 기능들은 `Assets/Sources/Scripts/BackEndChatManager.cs` 와 `Assets/Sources/Scripts/BackEndUIManager.cs` 를 주로 참고하시면 됩니다.
 
 ### 채팅서버에 접속/접속종료
