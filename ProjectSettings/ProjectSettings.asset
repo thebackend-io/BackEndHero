@@ -122,7 +122,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.6
+  bundleVersion: 1.7
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -160,7 +160,7 @@ PlayerSettings:
     Standalone: io.backend.backendhero
     iOS: io.backend.backendhero
   buildNumber: {}
-  AndroidBundleVersionCode: 16
+  AndroidBundleVersionCode: 17
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -764,7 +764,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     1: ENABLE_LOG
     4: 
-    7: 
+    7: ENABLE_LOG
   platformArchitecture: {}
   scriptingBackend:
     Android: 1

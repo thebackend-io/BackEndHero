@@ -36,13 +36,21 @@ public class Player : MonoBehaviour {
             {
                 isGrounded = false;
             }
+
+            if(transform.position.y < -10f) 
+            {
+                isLive = false;
+            }
         }
         else
         {
+            // 비정상적으로 플레이어가 맵 밖으로 나가는 경우
+            // 바로 게임 종료
             if (transform.position.y < -20f)
             {
                 myRgb.velocity = Vector3.zero;
                 myRgb.isKinematic = true;
+                GameManager.instance.GameOver ();
                 transform.position = new Vector3(0, -10f, 0);
             }
         }

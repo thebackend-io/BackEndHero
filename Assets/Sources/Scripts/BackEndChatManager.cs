@@ -140,6 +140,31 @@ public class BackEndChatManager : MonoBehaviour {
         return true;
     }
 
+    public void EnterChatServerInUserInfo()
+    {
+        if (!GetChatStatus())
+        {
+            return;
+        }
+        if (!GetChannelList())
+        {
+            return;
+        }
+
+        foreach (ChannelNodeObject channel in channelList)
+        {
+            // 인원수 체크
+            if (channel.joinedUserCount >= channel.maxUserCount)
+            {
+                continue;
+            }
+            // 활성화된 채널에 참가하고 루프 중단
+            JoinChannel(channel);
+            break;
+        }
+        return;
+    }
+
     // 채팅채널 퇴장
     public void LeaveChatServer()
     {

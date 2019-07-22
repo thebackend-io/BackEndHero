@@ -212,7 +212,10 @@ public class BackEndServerManager : MonoBehaviour
         GetUserInfo();  // 유저정보 가져오기 후 변수에 저장
         GetRemoveAds(); // 유저 광고제거 구매정보 가져오기 후 저장
         UpdateScore2(0);// 최고점수 갱신
-        BackEndChatManager.instance.EnterChatServer(); //채팅서버 접속
+
+        // 닉네임이 존재하지 않을 시 오류.
+        // GetUserInfo에서 채팅서버 접속
+        // BackEndChatManager.instance.EnterChatServer(); //채팅서버 접속
     }
 
     #endregion
@@ -542,6 +545,9 @@ public class BackEndServerManager : MonoBehaviour
                     nickName = nicknameJson.ToString();
                     Debug.Log("NickName is " + nickName);
                     DispatcherAction(BackEndUIManager.instance.CloseAll);
+
+                    // 닉네임이 존재할 시에만 채팅서버에 접속
+                    DispatcherAction(BackEndChatManager.instance.EnterChatServerInUserInfo);
                 }
                 else
                 {

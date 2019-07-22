@@ -47,7 +47,7 @@ public class ThrowController : MonoBehaviour {
         aimPreviewT.localScale = Vector3.Lerp(new Vector3(1, 1, 1), new Vector3(1, 2, 1), sd.magnitude / MAXIMUM_PULL);
         if (MobileInput.Instance.release)
         {
-            Vector3 throwVelocity = sd.normalized * 25.0f;
+            Vector3 throwVelocity = sd.normalized * 26.0f;
             player.Throw(throwVelocity);
         }
     }
